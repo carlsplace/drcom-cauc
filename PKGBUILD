@@ -1,9 +1,9 @@
-# Maintainer: Ricardo Vieira <ricardo.vieira@tecnico.ulisboa.pt>
+# Maintainer: Chang.YC <chang.yc@outlook.com>
 
 pkgname=drcom-cauc
 pkgver=0.1
 pkgrel=1
-pkgdesc="drcom client for Linux"
+pkgdesc="3rd Party Dr.COM Client for CAUC"
 arch=('i686' 'x86_64')
 url="https://github.com/drcoms/drcom-generic"
 license=('GPLv2')
