@@ -10,8 +10,8 @@ all:
 install:
 	install -Dm755 drcom $(DESTDIR)$(BINDIR)/drcom
 	[ ! -d /lib/systemd/system ] || install -Dm644 drcom.service $(DESTDIR)$(PREFIX)/lib/systemd/system/drcom.service
-	install -Dm644 cauc.py $(OPTDIR)/drcom/cauc.py
-	install -Dm644 LICENSE $(OPTDIR)/drcom/LICENSE
+	install -Dm644 cauc.py $(DESTDIR)$(OPTDIR)/drcom/cauc.py
+	install -Dm644 LICENSE $(DESTDIR)$(OPTDIR)/drcom/LICENSE
 
 uninstall:
 	rm -f $(DESTDIR)$(BINDIR)/drcom
