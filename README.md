@@ -14,10 +14,17 @@ password = '密码'
 
 ## 相关命令
 写了systemd服务脚步，可通过systemd来管理程序启动。
+
 开机自启：`sudo systemctl enable drcom`
+
 取消开机自启：`sudo systemctl disable drcom`
+
 简化了一些systemd服务命令
+
 `drcom -1`: 拨号
+
 `drcom -0`: 断开
+
 `drcom -s`: 查看当前systemd服务状态
+
 `drcom -r`: 重启服务
