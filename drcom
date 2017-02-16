@@ -1,0 +1,6 @@
+case "$1" in
+    -0) sudo systemctl stop drcom ;;
+    -1) sudo systemctl start drcom ;;
+    -r) sudo systemctl restart drcom ;;
+    -s) systemctl status drcom ;;
+esac
