@@ -6,7 +6,7 @@ fork自[drcom-generic](https://github.com/carlsplace/drcom-cauc)项目
 
 ## 账号密码
 
-修改`/opt/drcom/cauc.py`中对应的变量即可：
+修改`/etc/drcom.conf`中对应的变量即可：
 ```
 username = '用户名'
 password = '密码'
