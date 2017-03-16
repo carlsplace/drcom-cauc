@@ -4,10 +4,10 @@ Requires=network.target
 After=network.target
 
 [Service]
-Type=idle
+Type=simple
 ExecStart=/usr/bin/python2 /opt/drcom/cauc.py
-Restart=on-failure
-RestartSec=3
+Restart=always
+RestartSec=6000
 
 [Install]
 WantedBy=multi-user.target
