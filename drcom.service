@@ -6,8 +6,7 @@ After=network.target
 [Service]
 Type=idle
 ExecStart=/usr/bin/python2 /opt/drcom/cauc.py
-Restart=always
-RestartSec=6000
+Restart=on-failure
 
 [Install]
 WantedBy=multi-user.target
