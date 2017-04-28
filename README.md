@@ -4,6 +4,8 @@ fork自[drcom-generic](https://github.com/carlsplace/drcom-cauc)项目
 
 # 简单使用指南
 
+安装```make install```即可
+
 ## 账号密码
 
 修改`/etc/drcom.conf`中对应的变量即可：
