@@ -1,6 +1,7 @@
 # drcom for cauc
+
 fork自[drcom-generic](https://github.com/carlsplace/drcom-cauc)项目
-尝试打包发布的AUR
+尝试打包发布到AUR
 
 # 简单使用指南
 
@@ -8,13 +9,15 @@ fork自[drcom-generic](https://github.com/carlsplace/drcom-cauc)项目
 
 ## 账号密码
 
-修改`/etc/drcom.conf`中对应的变量即可：
+修改`/etc/drcom.conf`中对应的变量：
 ```
 username = '用户名'
 password = '密码'
 ```
+或者在```make install```之前修改drcom.conf文件
 
 ## 相关命令
+
 写了systemd服务脚步，可通过systemd来管理程序启动。
 
 开机自启：`sudo systemctl enable drcom`
