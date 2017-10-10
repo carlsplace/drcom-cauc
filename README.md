@@ -1,3 +1,5 @@
+# 好消息奔走相告啊，校园网终于可以像CMCC一样网页登录了。本项目的历史使命完成啦！
+
 # drcom for cauc
 
 fork自[drcom-generic](https://github.com/carlsplace/drcom-cauc)项目
